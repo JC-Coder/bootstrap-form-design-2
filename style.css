@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(203, 203, 203);
+}
+
+.title h3{
+    font-weight: 600;
+}
+
+.main{
+    margin-top: 2rem;
+}
+
+.form-container{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.form-container h2{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: green;
+}
+
+.form-container h2 i{
+    color: green;
+    font-size: 1.7rem;
+}
+
+form{
+    color: grey;
+    padding: 0 1.2rem;
+}
+
+.form-group{
+    margin-top: 2rem;
+}
+
+label{
+    font-size: 2rem;
+}
+
+input{
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.508) !important;
+    border-radius: 0px !important;
+    margin-left: 1rem;
+}
+
+input:focus-visible{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+form button{
+    margin-top: 1.3rem;
+    border-radius: 3px !important;
+}
+
+.form1-container{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.form1{
+    padding-top: 1px;
+}
+
+.form1 form button{
+    background-color: green;
+    border: none;
+    box-shadow: none !important;
+
+}
+
+.form2-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.form2{
+    background-color: blue;
+    color: white;
+    padding-top: 1px !important;
+}
+
+.form2 h2{
+    color: white;
+}
+
+.form2 h2 i{
+    color: white;
+}
+
+.form2 i{
+    color: white;
+}
+
+.form2 form input{
+    background-color: transparent;
+    border-color: white !important;
+    color: white !important;
+}
+
+.form2 form input::placeholder{
+    color: white !important;
+}
+
+.form2 form input:focus{
+    background-color: transparent !important;
+}
+
+.form2 form button{
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: none !important;
+}
+
+.form2 form button:hover{
+    background-color: green;
+    border: none;
+}
+
+
+.sign-up{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    width: 350px;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+    color: brown;
+    font-weight: 600;
+}
+
+.sign-up1{
+    background-image: linear-gradient(to right, purple, rgb(222, 88, 110));
+    color: white;
+}
+
